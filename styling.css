@@ -27,3 +27,9 @@ body {
   background-color: #FA3309;
   color: white;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
