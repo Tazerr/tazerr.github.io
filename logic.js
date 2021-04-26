@@ -15,3 +15,48 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+function sport() {
+    var x = document.getElementById('sports');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function games() {
+    var x = document.getElementById('esports');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function movies() {
+    var x = document.getElementById('movie');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function ani() {
+    var x = document.getElementById('anime');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
+
+function music() {
+    var x = document.getElementById('tracks');
+    if (x.style.display == 'none') {
+        x.style.display = 'block';
+    } else {
+        x.style.display = 'none';
+    }
+}
