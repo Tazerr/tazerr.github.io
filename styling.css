@@ -4,9 +4,9 @@
   height: 100vh;
   font-family: Arial, Helvetica, sans-serif;
   background-image: url('images/ani.png');
-  position: relative;
   background-repeat: no-repeat;
-  animation: change 10s ease-in-out infinite;
+  position: relative;
+  animation: change 20s ease-in-out infinite;
 
 }
 
@@ -50,11 +50,7 @@
   font-size: 5rem;
   letter-spacing: 2px;
   color: #333;
-  padding: 15px;
-}
-
-.sticky + .heading{
-  padding-top: 50px;
+  padding: 10px;
 }
 
 .topic {
@@ -65,14 +61,10 @@
   text-align: center;
 }
 
-.sticky + .topic{
-  padding-top: 60px;
-}
-
 .intro{
   font-size: 1.5rem;
   color: #333;
-  padding: 5px;
+  padding: 10px;
   margin-right: 50%;
 }
 .edu{
@@ -103,6 +95,68 @@ img {
 }
 .icon a:hover {
   background-color: #fff;
+}
+
+.sticky + .topic{
+  padding-top: 60px;
+}
+
+h2{
+  font-size: 3rem;
+  letter-spacing:2px;
+  color: #ff0831;
+  padding: 10px;
+  text-align: center;
+}
+
+.headhobby {
+  font-size: 4rem;
+  letter-spacing: 2px;
+  color: #ff0831;
+  padding: 15px;
+  text-align: center;
+}
+
+.sticky + .headhobby{
+  padding-top: 60px;
+}
+
+.hobby {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: 200% 200%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url('images/stars.jpeg');
+  position: relative;
+  animation: change 60s ease-in-out infinite;
+  text-align: center;
+
+}
+
+.hobbycont{
+  font-size: 1.5rem;
+  color: #ff0831;
+  text-align: center;
+}
+
+ol{
+  font-size: 1rem;
+  padding: 10px;
+  color: #000;
+  display: table;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.pad{
+  padding: 10px;
+}
+
+.note{
+  background-color: #0685c9;
+  padding: 20px;
+  color: #000;
 }
 
 @keyframes change {
