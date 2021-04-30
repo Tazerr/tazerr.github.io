@@ -117,6 +117,10 @@ h2{
   text-align: center;
 }
 
+.sticky + .heading{
+  padding-top: 60px;
+}
+
 .sticky + .headhobby{
   padding-top: 60px;
 }
